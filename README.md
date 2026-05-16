@@ -5,6 +5,37 @@ A modern interactive Business Intelligence dashboard built using React.js, Recha
 This project analyzes real FY2025 e-commerce sales data and transforms raw transactional datasets into visually rich business insights through interactive dashboards and analytics visualizations.
 
 ---
+# 📸 Dashboard Preview
+
+## 🌙 Dark Mode Overview
+
+![Dark Mode Overview](screenshots/darkmode.png)
+
+---
+
+## 📈 Overview Analytics
+
+![Overview](screenshots/overview.png)
+
+---
+
+## 🛍️ Product Analytics
+
+![Products](screenshots/products.png)
+
+---
+
+## 🌍 Geography Analytics
+
+![Geography](screenshots/geography.png)
+
+---
+
+## 💳 Payment Analytics
+
+![Payments](screenshots/payments.png)
+
+---
 
 # 🚀 Features
 
