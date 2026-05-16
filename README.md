@@ -1,70 +1,221 @@
-# Getting Started with Create React App
+# 📊 E-Commerce Analytics Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern interactive Business Intelligence dashboard built using React.js, Recharts, Python ETL pipelines.
 
-## Available Scripts
+This project analyzes real FY2025 e-commerce sales data and transforms raw transactional datasets into visually rich business insights through interactive dashboards and analytics visualizations.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+# 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📈 Interactive Dashboard
+- Monthly Revenue Trends
+- Dynamic KPI Cards
+- Revenue & Profit Analytics
+- Animated Charts
+- Interactive Filters
+- Dark / Light Mode Toggle
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛍️ Product Analytics
+- Revenue by Category
+- Product Performance Tracking
+- Top Selling Products
+- Loss-Making Product Detection
+- Revenue Share Analysis
 
-### `npm test`
+## 🌍 Geography Analytics
+- State-wise Revenue Insights
+- Regional Profitability Analysis
+- Business Performance Comparison
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💳 Payment Analytics
+- Revenue by Payment Mode
+- Payment Distribution Analysis
+- UPI / COD / Card Performance
 
-### `npm run build`
+## ⚙️ Data Engineering
+- Python ETL Pipeline
+- CSV Data Processing
+- JSON Transformation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Frontend
+- React.js
+- Recharts
+- Lucide React Icons
 
-### `npm run eject`
+## Backend / Data Processing
+- Python
+- Pandas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Data Pipeline
+- CSV → ETL → JSON Pipeline
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+ecommerce-dashboard/
+│
+├── src/
+│   ├── data/
+│   ├── Dashboard.jsx
+│   ├── App.js
+│
+├── etl/
+│   ├── etl_pipeline.py
+│
+├── raw_data/
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── products.csv
+├── reports/
+│   ├── monthly_revenue_report.csv
+│   ├── category_report.csv
+│   ├── payment_report.csv
+│   ├── state_report.csv
+│   └── top_products_report.csv
+│
+├── ecommerce_dashboard.db
+├── package.json
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 📊 Dashboard Modules
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Overview
+- KPI Cards
+- Monthly Revenue Chart
+- Revenue & Profit by Category
+- Revenue by Payment Mode
 
-### Code Splitting
+## Products
+- Category Filters
+- Product Performance
+- Revenue Share by Category
+- Loss-Making Products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Geography
+- State-wise Revenue
+- Regional Profitability
 
-### Analyzing the Bundle Size
+## Payments
+- Payment Distribution
+- Revenue by Payment Mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# ⚙️ ETL Pipeline
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The project uses a Python ETL pipeline to:
 
-### Advanced Configuration
+1. Extract raw ecommerce sales data
+2. Clean and transform business metrics
+3. Generate analytics reports
+4. Export JSON data for React charts
+5. Visualisation on React Dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# 📈 Dataset Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 500+ real ecommerce orders
+- Full FY2025 data
+- Seasonal sales patterns
+- Multiple product categories
+- State-wise sales distribution
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 🎨 UI Features
+
+- Glassmorphism Design
+- Gradient Backgrounds
+- Hover Glow Effects
+- Animated KPI Cards
+- Responsive Layout
+- Modern SaaS-style Dashboard UI
+
+---
+
+# ▶️ Installation & Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/dakshtiwari23/ecommerce-analytics-dashboard.git
+```
+
+---
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## Start React Application
+
+```bash
+npm start
+```
+
+Application runs on:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Run ETL Pipeline
+
+```bash
+cd etl
+python etl_pipeline.py
+```
+
+---
+
+# 📦 Main Dependencies
+
+This project uses:
+
+- React.js
+- Recharts
+- TailwindCSS
+- Lucide React
+- PostCSS
+
+Configured in `package.json`. :contentReference[oaicite:1]{index=1}
+
+---
+
+# 🔮 Future Improvements
+
+- Real-time API Integration
+- AI-powered Insights
+- Predictive Analytics
+- User Authentication
+- Cloud Database Integration
+- PDF Report Export
+
+---
+
+# 👨‍💻 Author
+
+Daksh Tiwari
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a star ⭐ on GitHub.
