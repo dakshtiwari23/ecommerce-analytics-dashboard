@@ -1,0 +1,16 @@
+cat,name,revenue,profit,qty
+Clothing,Jackets,386000,-115800,193
+Clothing,Jeans,163800,-36400,182
+Clothing,Shirts,131600,-28200,188
+Clothing,Sneakers,545000,-163500,109
+Clothing,T-shirt,212400,88500,177
+Electronics,Accessories,1014000,338000,169
+Electronics,Laptops,3454000,628000,157
+Electronics,Monitors,2394000,399000,133
+Electronics,Phones,2325000,465000,155
+Electronics,Printers,1160000,-145000,145
+Electronics,Televisions,4480000,768000,128
+Furniture,Bookcases,279000,93000,155
+Furniture,Chairs,80000,-24000,160
+Furniture,Stools,113400,25200,126
+Furniture,Tables,648000,216000,144
